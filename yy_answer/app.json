@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/homepage/home",
+    "pages/pcenter/pcenter/pcenter"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d04332",
+    "navigationBarTitleText": "拆红包",
+    "navigationBarTextStyle": "#FFF"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/homepage/home",
+        "text": "发红包"
+      },
+      {
+        "pagePath": "pages/pcenter/pcenter/pcenter",
+        "text": "余额提现"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

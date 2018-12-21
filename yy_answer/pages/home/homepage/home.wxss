@@ -1,0 +1,5 @@
+.home_page{
+  background-color: #d04332;
+  width: 100%;
+  height: 100%;
+}
