@@ -1,1 +1,96 @@
-/* pages/pcenter/pcenter/pcenter.wxss */
+.money_content{
+  width: 90%;
+  height: 450rpx;
+  margin: 150rpx 5% 50rpx 5%;
+  border-radius: 10rpx;
+}
+.user_head_img{
+  width: 120rpx;
+  height: 120rpx;
+  background: #efefef;
+  margin: 0 auto;
+  margin-top: -60rpx;
+  border-radius: 60rpx;
+}
+.noney_view{
+  text-align: center;
+  margin-top: 50rpx;
+  color: #fbd4a1;
+}
+.money_text{
+  display: block;
+  /* margin-bottom: 10rpx; */
+  font-size: 24rpx;
+}
+.money_value{
+  font-size: 68rpx;
+  font-weight: bold;
+}
+.money_out{
+  height: 88rpx;
+  width: 90%;
+  margin:0 auto;
+  margin-top:50rpx;
+  line-height: 88rpx;
+  border-width: 0;
+  background: #fec497;
+  border-radius: 44rpx;
+  color: #913e1c;
+  text-align: center;
+}
+
+.button-hover {
+  opacity: 0.9;
+}
+.tips{
+  color: #fff;
+  opacity: 0.8;
+  width: 80%;
+  height: 450rpx;
+  margin: 0 auto;
+
+}
+.tips label{
+  display: block;
+  font-size: 28rpx;
+  margin-bottom: 15rpx;
+}
+.result_pop_back{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color:rgba(0, 0, 0, .3);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.result_pop{
+  width: 80%;
+  height: 400rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  margin:240rpx auto;
+  text-align: center;
+  display: block;
+}
+.result_icon{
+  margin-top: 40rpx;
+}
+.result_pop label{
+  display: block;
+}
+.result_pop label:nth-child(3){
+  font-size: 30rpx;
+  opacity: 0.7;
+  margin-top: 10rpx;
+
+}
+.result_pop .result_btn{
+  height: 88rpx;
+  margin-top: 40rpx;
+  line-height: 88rpx;
+  background: #d04332;
+  color: #fff;
+  width: 70%;
+  font-size: 38rpx;
+}

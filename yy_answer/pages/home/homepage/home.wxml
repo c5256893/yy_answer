@@ -1,4 +1,75 @@
 <!--pages/home/homepage/home.wxml-->
 <view class='container'>
+  <view style='width:100%;height:100%;'>
+    <view class='head'>
+      <image class='img'></image>
+      <button class='dtjl' bindtap='recordAction'>答题记录</button>
+      <label class='user_nike'>嗨！吵吵</label>
+      <label class='user_msg'>见证友谊的时刻到了</label>
+      <button class='user_send'>出题，发个红包试试</button>
+    </view>
+    <view class='subject_record'>
+      <view class="section_title">出题记录<text class='section_title_desc'>共发出：22.22元</text></view>
+      <scroll-view scroll-y class='scroll_view'>
+        <!-- <noData inner-text="暂无出题记录"></noData> -->
+        <view class='s_node'>
+          <view class='node_img'>
+            <image></image>
+          </view>
+          <view class='node_desc'>
+            <text class='node_nike'>吵吵</text>
+            <text class='node_time'>12-12 12:12</text>
+          </view>
+          <view class='node_money'>
+            <text class='desc'>共:100元，200个</text>
+            <text class='state'>已抢完</text>
+          </view>          
+        </view>
+        <view class='s_node'>
+          <view class='node_img'>
+            <image></image>
+          </view>
+          <view class='node_desc'>
+            <text class='node_nike'>吵吵</text>
+            <text class='node_time'>12-12 12:12</text>
+          </view>
+          <view class='node_money_no'>
+            <text class='desc'>共:100元，200个</text>
+            <button class='invite'>邀请好友</button>
+          </view>          
+        </view>
+        <view class='s_node'>
+          <view class='node_img'>
+            <image></image>
+          </view>
+          <view class='node_desc'>
+            <text class='node_nike'>吵吵</text>
+            <text class='node_time'>12-12 12:12</text>
+          </view>
+          <view class='node_money'>
+            <text class='desc'>共:100元，200个</text>
+            <text class='state'>已抢完</text>
+          </view>          
+        </view>
+        <view class='s_node'>
+          <view class='node_img'>
+            <image></image>
+          </view>
+          <view class='node_desc'>
+            <text class='node_nike'>吵吵</text>
+            <text class='node_time'>12-12 12:12</text>
+          </view>
+          <view class='node_money_no'>
+            <text class='desc'>共:100元，200个</text>
+            <button class='invite'>邀请好友</button>
+          </view>          
+        </view>
+        
+      </scroll-view>
+    </view>
+  </view>
  
+   
+ 
+
 </view>

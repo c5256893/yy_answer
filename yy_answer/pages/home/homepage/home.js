@@ -62,5 +62,14 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  /**
+   * 答题记录
+   */
+  recordAction: function(){
+    wx.navigateTo({
+      url: '../record/record'
+    })
   }
+
 })

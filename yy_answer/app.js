@@ -6,13 +6,14 @@ App({
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
 
-    // 登录
+    //每一次进来小程序都需要重新获取code，去服务器登陆一次。
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        console.log(res);
       }
     })
-    // 获取用户信息
+    // 获取用户信息s s
     wx.getSetting({
       success: res => {
         if (res.authSetting['scope.userInfo']) {

@@ -2,5 +2,5 @@
   "usingComponents": {
     "noData": "../../nodata/nodata"
   },
-  "navigationBarTitleText": "红包对对答"
+  "navigationBarTitleText": "答题记录"
 }

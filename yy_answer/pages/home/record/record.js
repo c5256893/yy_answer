@@ -1,11 +1,11 @@
-// pages/pcenter/pcenter/pcenter.js
+// pages/home/record/record.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isApplySuccess:false
+
   },
 
   /**
@@ -62,19 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  /**
-   * 提现申请
-   */
-  applyAction:function(){
-    this.setData({
-      isApplySuccess:true
-    });
-  },
-  applyResultSuccesAction:function(){
-    this.setData({
-      isApplySuccess: false
-    });
   }
 })

@@ -1,2 +1,29 @@
-<!--pages/pcenter/pcenter/pcenter.wxml-->
-<text>pages/pcenter/pcenter/pcenter.wxml</text>
+ <view class='container'>
+  <view style='width:100%;height:100%;'>
+    <view class='money_content'>
+      <view class='user_head_img'>
+        <image></image>
+      </view>
+      <view class='noney_view'>
+        <text class='money_text'>钱包余额</text>
+        <label class='money_value'><label style='font-size:24rpx'>￥</label>1000</label>
+      </view>
+      <button class='money_out' bindtap='applyAction'>提现</button>
+    </view>
+    <view class='tips'>
+      <label>1:余额会提现到微信钱包中。</label>
+      <label>2:未领取的红包24小时之后会退回到您的余额中。</label>
+      <label>3:提现申请之后将在1-3个工作日内打入您的微信零钱。</label>
+      <label>4:如遇提现或者页面异常，请稍后再试或者联系客服。</label>
+    </view>
+    <view class='result_pop_back' wx-if="{{isApplySuccess}}">
+      <view class='result_pop'>
+          <icon class='result_icon' type="success" size="45" color="#d04332" />
+          <label>提现申请成功</label>
+          <label>余额将在1-3个工作日内打入您的微信零钱</label>
+
+          <button class='result_btn' bindtap='applyResultSuccesAction'>完成</button>
+      </view>
+    </view>
+  </view>
+ </view>

@@ -1,0 +1,38 @@
+<view class='container'>
+ <scroll-view style='heigth:100%'>
+   <view class='head'>
+      <image></image>
+      <label class='head_nike'><label>吵吵</label>您共收到<label>2.00</label>元</label>
+   </view>
+   <!-- <noData inner-text="暂无答题记录"></noData> -->
+   <view class='node'>
+    <view class='node_img'>
+      <image></image>
+    </view>
+    <view class='node_desc'>
+      <text class='node_nike'>吵吵</text>
+      <text class='node_time'>12-12 12:12</text>
+    </view>
+    <view class='node_money'>
+      <text class='desc'>1.25<text style='font-size:26rpx;margin-left:10rpx'>元</text></text>
+      <text class='state'>答对5题</text>
+    </view> 
+   </view>
+
+   <view class='node'>
+    <view class='node_img'>
+      <image></image>
+    </view>
+    <view class='node_desc'>
+      <text class='node_nike'>nana</text>
+      <text class='node_time'>12-12 12:12</text>
+    </view>
+    <view class='node_money'>
+      <text class='desc'>未获得</text>
+      <text class='state'>答对5题</text>
+    </view> 
+   </view>
+
+ </scroll-view>
+</view>
+

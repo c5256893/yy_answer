@@ -1,7 +1,9 @@
 {
   "pages": [
+    
     "pages/home/homepage/home",
-    "pages/pcenter/pcenter/pcenter"
+    "pages/pcenter/pcenter/pcenter",
+    "pages/home/record/record"
   ],
   "window": {
     "backgroundTextStyle": "light",

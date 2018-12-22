@@ -1,0 +1,7 @@
+.no_data{
+  width: 100%;
+  height: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 32rpx;
+}
