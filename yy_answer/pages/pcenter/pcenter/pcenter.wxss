@@ -39,9 +39,7 @@
   text-align: center;
 }
 
-.button-hover {
-  opacity: 0.9;
-}
+
 .tips{
   color: #fff;
   opacity: 0.8;

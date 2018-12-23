@@ -1,4 +1,4 @@
-// pages/home/homepage/home.js
+// pages/home/issueResult/issueResult.js
 Page({
 
   /**
@@ -62,22 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 答题记录
-   */
-  recordAction: function(){
-    wx.navigateTo({
-      url: '../record/record'
-    })
-  },
-  /**
-   * 出题目
-   */
-  lssueAction: function(){
-    wx.navigateTo({
-      url: '../issue/issue'
-    })
   }
-
 })

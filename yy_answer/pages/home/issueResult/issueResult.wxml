@@ -1,0 +1,31 @@
+<view class='container'>
+  <view style='width:100%;height:100%;'>
+    <view class='t_content'>
+      <view class='node'>
+       <label class='title'>总金额:</label>
+       <input type='number' placeholder="请填写金额" auto-focus />
+       <label class='s_title'>元</label>
+      </view>
+      <view class='node'>
+        <label class='title'>红包数:</label>
+        <input type='number' placeholder="请填写红包数量" />
+        <label class='s_title'>份</label>
+      </view>
+      <view class='node'>
+        <label class='title'>需答对:</label>
+        <input type='number' placeholder="请填写答对题数"  maxlength='2'/>
+        <label class='s_title'>题</label>
+      </view>
+    </view>
+    <view class='service_charge'>
+      <label>收取￥0.00服务费</label>
+    </view>
+
+    <button class='money_out' bindtap='applyAction'>生成答题红包</button>
+
+    <view class='service_msg'>
+      <label>未领取的红包，将于24小时后退回小程序余额</label>
+    </view>
+
+  </view>
+</view>

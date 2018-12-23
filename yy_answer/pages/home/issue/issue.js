@@ -1,11 +1,11 @@
-// pages/home/homepage/home.js
+// pages/home/Issue/Issue.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    issueIndex:5//出问题到第几题。
   },
 
   /**
@@ -62,22 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 答题记录
-   */
-  recordAction: function(){
-    wx.navigateTo({
-      url: '../record/record'
-    })
-  },
-  /**
-   * 出题目
-   */
-  lssueAction: function(){
-    wx.navigateTo({
-      url: '../issue/issue'
-    })
   }
-
 })

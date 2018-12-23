@@ -6,7 +6,7 @@
       <button class='dtjl' bindtap='recordAction'>答题记录</button>
       <label class='user_nike'>嗨！吵吵</label>
       <label class='user_msg'>见证友谊的时刻到了</label>
-      <button class='user_send'>出题，发个红包试试</button>
+      <button class='user_send' bindtap='lssueAction'>出题，发个红包试试</button>
     </view>
     <view class='subject_record'>
       <view class="section_title">出题记录<text class='section_title_desc'>共发出：22.22元</text></view>

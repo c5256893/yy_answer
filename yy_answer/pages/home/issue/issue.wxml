@@ -1,0 +1,19 @@
+<view class='container'>
+  <view style='width:100%;height:100%;'>
+    <view class='head_num'>
+      <view class='line'></view>
+      <view wx:for="{{10}}" class='{{issueIndex<=index?"node":"node node_back"}}'>{{index+1}}</view>
+    </view>
+    <view class='s_content'>
+      <view class='s_head'>
+        <view>换一题</view>
+        <view>+出题</view>
+      </view>
+      <view class='s_tm'>
+        <view class='s_tm_title'><label>题目1:</label>陈恺龙爱段娜吗？</view>
+        <view class='s_tim_value'><view class='child'>爱，很爱，非常爱</view></view>
+        <view class='s_tim_value'><view class='child'>啥？爱？爱是什么？</view></view>
+      </view>
+    </view>
+  </view>
+</view>

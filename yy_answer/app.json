@@ -1,6 +1,7 @@
 {
   "pages": [
-    
+    "pages/home/issueResult/issueResult",
+    "pages/home/issue/issue",
     "pages/home/homepage/home",
     "pages/pcenter/pcenter/pcenter",
     "pages/home/record/record"
@@ -12,14 +13,20 @@
     "navigationBarTextStyle": "#FFF"
   },
   "tabBar": {
+    "color": "#d04332",
+    "selectedColor": "#72251b",
     "list": [
       {
         "pagePath": "pages/home/homepage/home",
-        "text": "发红包"
+        "text": "发红包",
+        "iconPath": "images/fhb.jpg",
+        "selectedIconPath": "images/fhb_s.jpg"
       },
       {
         "pagePath": "pages/pcenter/pcenter/pcenter",
-        "text": "余额提现"
+        "text": "余额提现",
+        "iconPath": "images/tx.jpg",
+        "selectedIconPath": "images/tx_s.jpg"
       }
     ]
   },

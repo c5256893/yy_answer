@@ -17,3 +17,6 @@ page{
 button::after{
 border: none;
 }
+.button-hover {
+  opacity: 0.9;
+}
